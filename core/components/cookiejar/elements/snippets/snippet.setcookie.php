@@ -25,15 +25,15 @@
 
 /* set default properties */
 $name = !empty($name) ? $name : '';
-$value = !empty($value) ? $value : '';
-$expires = !empty($expires) ? $expires : '';
-$path = !empty($path) ? $path : '';
+$value = !empty($value) ? explode(',', $value) : ''; // Receives CSV list, converts to array.
+$expires = !empty($expires) ? $expires : '0';
+$path = !empty($path) ? $path : '/';
 $domain = !empty($domain) ? $domain : '';
-$secure = !empty($secure) ? $secure : '';
-$httponly = !empty($httponly) ? $httponly : '';
+$secure = !empty($secure) ? $secure : '0';
+$httponly = !empty($httponly) ? $httponly : '1';
 
 $output = '';
 
-$output = setcookie($name,$value,$expires,$path,$domain,$secure,$httponly);
+setcookie($name,implode(',', $value),strtotime($expires),$path,$domain,$secure,$httponly);
 
-return $output;
+return '';
