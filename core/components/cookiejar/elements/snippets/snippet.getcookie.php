@@ -7,6 +7,7 @@
  * @released April 23, 2014
  * @since April 23, 2014
  * @package cookiejar
+ * @snippet getcookie
  *
  * Copyright (C) 2014 David Pede. All rights reserved. <dev@tasianmedia.com>
  *
@@ -25,13 +26,14 @@
 
 /* set default properties */
 $name = !empty($name) ? $name : '';
+$tpl = !empty($tpl) ? $tpl : '';
 
 $output = '';
 
-if(!isset($_COOKIE[$name])) {
-  $output = $modx->getChunk($isNotSetTpl);
-}else{
-  $output = $modx->getChunk($isSetTpl);
+if(isset($name) && isset($_COOKIE[$name])) {
+  $cookie = htmlspecialchars($_COOKIE[$name]);
+  $modx->setPlaceholder('value',$cookie);
+  $output = $modx->getChunk($tpl);
 }
 
 return $output;
