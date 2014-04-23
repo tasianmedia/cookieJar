@@ -1,5 +1,0 @@
-Changelog for cookieToolkit.
-
-cookieToolkit 1.0.0-pl (April 23, 2014)
-====================================
-- Initial release.

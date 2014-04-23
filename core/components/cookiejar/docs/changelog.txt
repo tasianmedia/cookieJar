@@ -1,0 +1,5 @@
+Changelog for cookieJar.
+
+cookieJar 1.0.0-pl (April 23, 2014)
+====================================
+- Initial release.

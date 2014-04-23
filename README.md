@@ -1,15 +1,15 @@
-#cookieToolkit 1.0.0-pl
-##A Cookie management Extra for MODX Revolution.
+#cookieJar 1.0.0-pl
+##A Cookie toolkit Extra for MODX Revolution.
 
 ###Installation
 Simply download through MODX Package Management, and install.
 
 ###Documentation
-Official Documentation: http://rtfm.modx.com/extras/revo/cookietoolkit
+Official Documentation: http://rtfm.modx.com/extras/revo/cookiejar
 
-GitHub Repository: http://github.com/tasianmedia/cookietoolkit
+GitHub Repository: http://github.com/tasianmedia/cookiejar
 
-Bugs & Feature Requests: http://github.com/tasianmedia/cookietoolkit/issues
+Bugs & Feature Requests: http://github.com/tasianmedia/cookiejar/issues
 
 ###Details
 Author: David Pede (dev@tasianmedia.com) (https://twitter.com/davepede)
