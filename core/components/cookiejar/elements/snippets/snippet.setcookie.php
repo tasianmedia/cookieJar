@@ -7,6 +7,7 @@
  * @released April 23, 2014
  * @since April 23, 2014
  * @package cookiejar
+ * @snippet setcookie
  *
  * Copyright (C) 2014 David Pede. All rights reserved. <dev@tasianmedia.com>
  *
@@ -25,7 +26,7 @@
 
 /* set default properties */
 $name = !empty($name) ? $name : '';
-$value = !empty($value) ? explode(',', $value) : ''; // Receives CSV list, converts to array.
+$value = !empty($value) ? explode(',', $value) : '';
 $expires = !empty($expires) ? $expires : '0';
 $path = !empty($path) ? $path : '/';
 $domain = !empty($domain) ? $domain : '';
