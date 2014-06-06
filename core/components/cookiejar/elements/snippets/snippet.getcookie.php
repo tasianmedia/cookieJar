@@ -44,6 +44,8 @@ if(isset($name) && isset($_COOKIE[$name])) {
       $result = $modx->getChunk($tpl,$ph);
     }
   }
+}else{
+  $modx->log(modX::LOG_LEVEL_ERROR, 'getCookie() - Cookie name not recognised.');
 }
 
 $output = $result;
