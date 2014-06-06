@@ -27,13 +27,25 @@
 /* set default properties */
 $name = !empty($name) ? $name : '';
 $tpl = !empty($tpl) ? $tpl : '';
+$toPlaceholder = !empty($toPlaceholder) ? $toPlaceholder : 'value';
 
 $output = '';
 
 if(isset($name) && isset($_COOKIE[$name])) {
   $cookie = htmlspecialchars($_COOKIE[$name]);
-  $modx->setPlaceholder('value',$cookie);
-  $output = $modx->getChunk($tpl);
+  if(empty($tpl) && $toPlaceholder == 'value') {
+    $result = $cookie;
+  }else{
+    if (!empty($toPlaceholder)) {
+      $modx->setPlaceholder($toPlaceholder,$cookie); 
+    }
+    if (!empty($tpl)) {
+      $ph = $modx->setPlaceholder($toPlaceholder,$cookie);
+      $result = $modx->getChunk($tpl,$ph);
+    }
+  }
 }
+
+$output = $result;
 
 return $output;
