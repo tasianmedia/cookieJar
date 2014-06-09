@@ -27,7 +27,7 @@
 /* set default properties */
 $name = !empty($name) ? $name : '';
 $tpl = !empty($tpl) ? $tpl : '';
-$toPlaceholder = !empty($toPlaceholder) ? $toPlaceholder : 'value';
+$toPlaceholder = !empty($toPlaceholder) ? $toPlaceholder : '';
 
 $output = '';
 
