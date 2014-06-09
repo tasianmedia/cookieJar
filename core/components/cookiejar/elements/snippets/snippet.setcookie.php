@@ -27,14 +27,17 @@
 /* set default properties */
 $name = !empty($name) ? $name : '';
 $value = !empty($value) ? $value : '';
-$expires = !empty($expires) ? time()+$expires : 0;
-$path = !empty($path) ? $path : '/';
+$expires = !empty($expires) ? time()+$expires : '';
+$path = !empty($path) ? $path : '';
 $domain = !empty($domain) ? $domain : '';
-$secure = !empty($secure) ? $secure : '0';
-$httponly = !empty($httponly) ? $httponly : 0;
+$secure = !empty($secure) ? $secure : '';
+$httponly = !empty($httponly) ? $httponly : '';
 
 $output = '';
 
-setcookie($name,$value,$expires,$path,$domain,$secure,$httponly);
-
+if(isset($name) {
+  setcookie($name,$value,$expires,$path,$domain,$secure,$httponly);
+}else{
+  $modx->log(modX::LOG_LEVEL_ERROR, 'setCookie() - &name is required');
+}
 return '';
