@@ -36,7 +36,7 @@ $httponly = !empty($httponly) ? $httponly : '';
 $output = '';
 
 if(isset($name)) {
-  setcookie($name,$value,$expires,$path,$domain,$secure,$httponly);
+  setcookie($name,$value,intval($expires),$path,$domain,$secure,$httponly);
 }else{
   $modx->log(modX::LOG_LEVEL_ERROR, 'setCookie() - &name is required');
 }
