@@ -3,7 +3,7 @@
  * @package cookiejar
  * @snippet getcookie
  *
- * Copyright (C) 2013 David Pede. All rights reserved. <dev@tasianmedia.com>
+ * Copyright (C) 2014 David Pede. All rights reserved. <dev@tasianmedia.com>
  *
  * getDate is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
