@@ -33,7 +33,7 @@ $output = '';
 
 if(isset($name) && isset($_COOKIE[$name])) {
   $cookie = htmlspecialchars($_COOKIE[$name]);
-  if(empty($tpl) && $toPlaceholder == 'value') {
+  if(empty($tpl) && $toPlaceholder === 'value') {
     $result = $cookie;
   }else{
     if (!empty($toPlaceholder)) {
