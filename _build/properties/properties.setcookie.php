@@ -3,7 +3,7 @@
  * @package cookiejar
  * @snippet setcookie
  *
- * Copyright (C) 2013 David Pede. All rights reserved. <dev@tasianmedia.com>
+ * Copyright (C) 2014 David Pede. All rights reserved. <dev@tasianmedia.com>
  *
  * getDate is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
@@ -38,14 +38,14 @@ $properties = array(
   ),
   array(
     'name' => 'expires',
-    'desc' => 'The time the cookie expires. This is a Unix timestamp so is in number of seconds. Leave blank to set a session cookie.',
-    'type' => 'textfield',
+    'desc' => 'The time the cookie expires. This is a Unix timestamp so is in number of seconds. Use `0` to set a session cookie.',
+    'type' => 'integer',
     'options' => '',
-    'value' => '0',
+    'value' => 0,
   ),
   array(
     'name' => 'path',
-    'desc' => 'The path on the server in which the cookie will be available on. Leave blank to make available within the entire domain.',
+    'desc' => 'The path on the server in which the cookie will be available on. Use `/` to make available within the entire domain.',
     'type' => 'textfield',
     'options' => '',
     'value' => '/',
