@@ -41,7 +41,7 @@ if(isset($name) && isset($_COOKIE[$name])) {
     }
     if (!empty($tpl)) {
       $ph = $modx->setPlaceholder($toPlaceholder,$cookie);
-      $result = $modx->getChunk($tpl,$ph);
+      $result = $modx->getChunk($tpl);
     }
   }
 }else{
