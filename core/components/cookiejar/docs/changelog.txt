@@ -1,5 +1,9 @@
 Changelog for cookieJar.
 
+cookieJar 1.0.1-pl (March 11, 2016)
+====================================
+- Fix incorrect placeholder ref in getChunk.
+
 cookieJar 1.0.0-pl (April 23, 2014)
 ====================================
 - Initial release.

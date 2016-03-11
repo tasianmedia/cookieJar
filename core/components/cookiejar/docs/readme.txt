@@ -1,8 +1,8 @@
 --------------------
 Extra: cookieJar
 --------------------
-Version: 1.0.0-pl
-Released: April 23, 2014
+Version: 1.0.1-pl
+Released: March 11, 2016
 Since: April 23, 2014
 Author: David Pede <dev@tasian.media> <https://twitter.com/davepede>
 Copyright: (C) 2016 David Pede. All rights reserved. <dev@tasian.media>
