@@ -2,14 +2,14 @@
 /**
  * A Cookie toolkit Extra for MODX Revolution.
  *
- * @author David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>
+ * @author David Pede <dev@tasian.media> <https://twitter.com/davepede>
  * @version 1.0.0-pl
  * @released April 23, 2014
  * @since April 23, 2014
  * @package cookiejar
  * @snippet setcookie
  *
- * Copyright (C) 2014 David Pede. All rights reserved. <dev@tasianmedia.com>
+ * Copyright (C) 2016 David Pede. All rights reserved. <dev@tasian.media>
  *
  * cookieJar is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
