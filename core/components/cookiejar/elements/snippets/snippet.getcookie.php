@@ -45,7 +45,7 @@ if(isset($name) && isset($_COOKIE[$name])) {
     }
   }
 }else{
-  $modx->log(modX::LOG_LEVEL_ERROR, 'getCookie() - Cookie name not recognised.');
+  $modx->log(xPDO::LOG_LEVEL_DEBUG, 'getCookie() - Cookie name not recognised.');
 }
 
 $output = $result;
