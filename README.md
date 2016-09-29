@@ -1,4 +1,4 @@
-#cookieJar 1.0.2-pl
+#cookieJar 1.0.3-pl
 ###A Cookie toolkit Extra for MODX Revolution.
 This extra includes a set of MODX Revolution snippets for setting, retrieving and deleting browser Cookies.
 

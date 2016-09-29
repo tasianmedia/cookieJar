@@ -3,7 +3,7 @@
   ,"lowCaseName": "cookiejar"
   ,"description": "A Cookie toolkit Extra for MODX Revolution."
   ,"author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>"
-  ,"version": "1.0.2-pl"
+  ,"version": "1.0.3-pl"
   ,"package":{
     "actions": [{
       "id": 1

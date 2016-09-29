@@ -1,5 +1,9 @@
 Changelog for cookieJar.
 
+cookieJar 1.0.3-pl (September 29, 2016)
+====================================
+- Changed error log message to a debug message when cookie name not found.
+
 cookieJar 1.0.2-pl (July 12, 2016)
 ====================================
 - Add support for installation via 'Git Package Management' Extra: https://github.com/theboxer/Git-Package-Management.
