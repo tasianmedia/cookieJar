@@ -2,10 +2,10 @@
 ### A Cookie toolkit Extra for MODX Revolution.
 This extra includes a set of MODX Revolution snippets for setting, retrieving and deleting browser Cookies.
 
-#### Installation
+### Installation
 Simply download through MODX Package Management, and install. Also supports installation via 'Git Package Management' Extra: https://github.com/theboxer/Git-Package-Management 
 
-#### Documentation
+### Documentation
 - Official Documentation: http://docs.modx.com/extras/revo/cookiejar
 - GitHub Repository: http://github.com/tasianmedia/cookiejar
 - Bugs & Feature Requests: http://github.com/tasianmedia/cookiejar/issues
