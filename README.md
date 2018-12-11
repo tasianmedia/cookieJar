@@ -17,11 +17,11 @@ Branch labels follow [Semantic Versioning](http://semver.org/):
 
 If you have a contribution and would like to submit a Pull Request, please be sure to target the correct branch.
 
-#### Details
+### Details
 Author: David Pede <dev@tasian.media>
 
 Copyright: (C) 2018 Tasian Media. All rights reserved. <studio@tasian.media>
 
-#### License
+### License
 Released under the GNU General Public License; either version 2 of the License, or (at your option) any later version.
 http://www.gnu.org/licenses/gpl.html
