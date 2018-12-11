@@ -1,23 +1,27 @@
-#cookieJar 1.0.3-pl
-###A Cookie toolkit Extra for MODX Revolution.
+# cookieJar 1.0.3-pl
+### A Cookie toolkit Extra for MODX Revolution.
 This extra includes a set of MODX Revolution snippets for setting, retrieving and deleting browser Cookies.
 
-####Installation
-Simply download through MODX Package Management, and install.
-Also supports installation via 'Git Package Management' Extra: https://github.com/theboxer/Git-Package-Management 
+#### Installation
+Simply download through MODX Package Management, and install. Also supports installation via 'Git Package Management' Extra: https://github.com/theboxer/Git-Package-Management 
 
-####Documentation
-- Official Documentation: http://rtfm.modx.com/extras/revo/cookiejar
+#### Documentation
+- Official Documentation: http://docs.modx.com/extras/revo/cookiejar
 - GitHub Repository: http://github.com/tasianmedia/cookiejar
 - Bugs & Feature Requests: http://github.com/tasianmedia/cookiejar/issues
 
-If you have a bug fix or improvement and would like to submit a Pull Request, please make sure you target the 'develop' branch.
+### Branches
+Branch labels follow [Semantic Versioning](http://semver.org/):
+- X.y = Major version
+- x.Y.z = Minor version
 
-####Details
-Author: David Pede (dev@tasian.media) (https://twitter.com/davepede)
+If you have a contribution and would like to submit a Pull Request, please be sure to target the correct branch.
 
-Copyright: (C) 2016 David Pede. All rights reserved. (dev@tasian.media)
+#### Details
+Author: David Pede <dev@tasian.media>
 
-####License
+Copyright: (C) 2018 Tasian Media. All rights reserved. <studio@tasian.media>
+
+#### License
 Released under the GNU General Public License; either version 2 of the License, or (at your option) any later version.
 http://www.gnu.org/licenses/gpl.html
