@@ -62,7 +62,7 @@
               "value": "0"
             },{
               "name": "expiresType",
-              "description": "The period unit for the cookie expires. Valid formats are: 'Y' (years), 'M' (months), 'D' (days), 'W' (weeks), 'H' (hours), 'M' (minutes) and 'S' (seconds).",
+              "description": "The period unit for the cookie expires. Valid inputs are: 'years', 'months', 'days', 'weeks', 'hours', 'minutes' and 'seconds'.",
               "type": "textfield",
               "value": "seconds"
             },{
