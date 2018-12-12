@@ -1,84 +1,99 @@
 {
-  "name": "cookieJar"
-  ,"lowCaseName": "cookiejar"
-  ,"description": "A Cookie toolkit Extra for MODX Revolution."
-  ,"author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>"
-  ,"version": "1.0.3-pl"
-  ,"package":{
-    "actions": [{
-      "id": 1
-      ,"controller": "index"
-    }]
-    ,"elements": {
-      "categories": [{
-        "name": "cookieJar"
-      }]
-      ,"snippets": [{
-        "name": "getCookie"
-        ,"description": "A simple Cookie retrieval Snippet for MODX Revolution."
-        ,"file": "snippet.getcookie.php"
-        ,"properties": [{
-          "name": "name"
-          ,"description": "The name of the cookie to be returned. [REQUIRED]"
-          ,"type": "textfield"
-          ,"value": ""
+  "name": "cookieJar",
+  "lowCaseName": "cookiejar",
+  "description": "A Cookie toolkit Extra for MODX Revolution.",
+  "author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>",
+  "version": "1.0.3-pl",
+  "package": {
+    "actions": [
+      {
+        "id": 1,
+        "controller": "index"
+      }
+    ],
+    "elements": {
+      "categories": [
+        {
+          "name": "cookieJar"
+        }
+      ],
+      "snippets": [
+        {
+          "name": "getCookie",
+          "description": "A simple Cookie retrieval Snippet for MODX Revolution.",
+          "file": "snippet.getcookie.php",
+          "properties": [
+            {
+              "name": "name",
+              "description": "The name of the cookie to be returned. [REQUIRED]",
+              "type": "textfield",
+              "value": ""
+            },{
+              "name": "tpl",
+              "description": "Name of a chunk serving as a template.",
+              "type": "textfield",
+              "value": ""
+            },{
+              "name": "toPlaceholder",
+              "description": "If set, will assign the output to this placeholder instead of outputting it directly.",
+              "type": "textfield",
+              "value": "value"
+            }
+          ]
         },{
-          "name": "tpl"
-          ,"description": "Name of a chunk serving as a template."
-          ,"type": "textfield"
-          ,"value": ""
-        },{
-          "name": "toPlaceholder"
-          ,"description": "If set, will assign the output to this placeholder instead of outputting it directly."
-          ,"type": "textfield"
-          ,"value": "value"
-        }]
-      },{
-        "name": "setCookie"
-        ,"description": "A simple Cookie setting Snippet for MODX Revolution."
-        ,"file": "snippet.setcookie.php"
-        ,"properties": [{
-          "name": "name"
-          ,"description": "The name of the cookie. [REQUIRED]"
-          ,"type": "textfield"
-          ,"value": ""
-        },{
-          "name": "value"
-          ,"description": "The value of the cookie. This value is stored on the clients computer, do not store sensitive information."
-          ,"type": "textfield"
-          ,"value": ""
-        },{
-          "name": "expires"
-          ,"description": "The time the cookie expires. This is a Unix timestamp so is in number of seconds. Use `0` to set a session cookie."
-          ,"type": "integer"
-          ,"value": "0"
-        },{
-          "name": "path"
-          ,"description": "The path on the server in which the cookie will be available on. Use `/` to make available within the entire domain."
-          ,"type": "textfield"
-          ,"value": "/"
-        },{
-          "name": "domain"
-          ,"description": "The domain that the cookie is available to."
-          ,"type": "textfield"
-          ,"value": ""
-        },{
-          "name": "secure"
-          ,"description": "Indicates that the cookie should only be transmitted over a secure HTTPS connection from the client."
-          ,"type": "integer"
-          ,"value": "0"
-        },{
-          "name": "httponly"
-          ,"description": "When TRUE the cookie will be made accessible only through the HTTP protocol. This means that the cookie wont be accessible by scripting languages, such as JavaScript."
-          ,"type": "integer"
-          ,"value": "0"
-        }]
-      }]
+          "name": "setCookie",
+          "description": "A simple Cookie setting Snippet for MODX Revolution.",
+          "file": "snippet.setcookie.php",
+          "properties": [
+            {
+              "name": "name",
+              "description": "The name of the cookie. [REQUIRED]",
+              "type": "textfield",
+              "value": ""
+            },{
+              "name": "value",
+              "description": "The value of the cookie. This value is stored on the clients computer, do not store sensitive information.",
+              "type": "textfield",
+              "value": ""
+            },{
+              "name": "expires",
+              "description": "The time the cookie expires. This is a Unix timestamp so is in number of seconds. Use `0` to set a session cookie.",
+              "type": "integer",
+              "value": "0"
+            },{
+              "name": "expiresType",
+              "description": "The period unit for the cookie expires. Valid formats are: 'Y' (years), 'M' (months), 'D' (days), 'W' (weeks), 'H' (hours), 'M' (minutes) and 'S' (seconds).",
+              "type": "textfield",
+              "value": "seconds"
+            },{
+              "name": "path",
+              "description": "The path on the server in which the cookie will be available on. Use `/` to make available within the entire domain.",
+              "type": "textfield",
+              "value": "/"
+            },{
+              "name": "domain",
+              "description": "The domain that the cookie is available to.",
+              "type": "textfield",
+              "value": ""
+            },{
+              "name": "secure",
+              "description": "Indicates that the cookie should only be transmitted over a secure HTTPS connection from the client.",
+              "type": "integer",
+              "value": "0"
+            },{
+              "name": "httponly",
+              "description": "When TRUE the cookie will be made accessible only through the HTTP protocol. This means that the cookie wont be accessible by scripting languages, such as JavaScript.",
+              "type": "integer",
+              "value": "0"
+            }
+          ]
+        }
+      ]
     }
-  }
-  ,"build": {
-    "readme": "docs/readme.txt"
-    ,"license": "docs/license.txt"
-    ,"changelog": "docs/changelog.txt"
+  },
+  "build": {
+    "readme": "docs/readme.txt",
+    "license": "docs/license.txt",
+    "changelog": "docs/changelog.txt"
   }
 }
