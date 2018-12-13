@@ -1,5 +1,11 @@
 Changelog for cookieJar.
 
+cookieJar 1.1.0-pl (December 13, 2018)
+====================================
+- Make cookie available immediately with no page reload using $_COOKIES.
+- New optional expiresType property allowing specification of expires type. Adds support for: 'years', 'months', 'days', 'weeks', 'hours', 'minutes' and 'seconds'. Defaults to 'seconds' for BC.
+- Minor improvements to error checks and handling.
+
 cookieJar 1.0.3-pl (September 29, 2016)
 ====================================
 - Changed error log message to a debug message when cookie name not found.

@@ -1,16 +1,16 @@
 --------------------
 Extra: cookieJar
 --------------------
-Version: 1.0.3-pl
-Released: September 29, 2016
+Version: 1.1.0-pl
+Released: December 13, 2018
 Since: April 23, 2014
-Author: David Pede <dev@tasian.media> <https://twitter.com/davepede>
-Copyright: (C) 2016 David Pede. All rights reserved. <dev@tasian.media>
+Author: David Pede <dev@tasian.media>
+Copyright (C) 2018 Tasian Media. All rights reserved. <studio@tasian.media>
 
 A Cookie toolkit Extra for MODX Revolution.
 
 Official Documentation:
-http://rtfm.modx.com/extras/revo/cookiejar
+http://docs.modx.com/extras/revo/cookiejar
 
 GitHub Repository:
 http://github.com/tasianmedia/cookiejar

@@ -3,8 +3,8 @@
  * A Cookie toolkit Extra for MODX Revolution.
  *
  * @author David Pede <dev@tasian.media>
- * @version 1.0.3-pl
- * @released September 29, 2016
+ * @version 1.1.0-pl
+ * @released December 13, 2018
  * @since April 23, 2014
  * @package cookiejar
  * @snippet getcookie
